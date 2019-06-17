@@ -1,8 +1,8 @@
-# Web scraepper - python3
+# Web scrapper - python3
 
 ### Clonar el repositorio:
 
-        git clone https://github.com/ecolonb/web_scrapper.git
+    git clone https://github.com/ecolonb/web_scrapper.git
 
 ### Instalar ambiente virtual
 
@@ -11,6 +11,10 @@
 ### Activar ambiente virtual:
 
     source .env/bin/activate
+
+### Desactivar ambiente virtual:
+
+    deactivate
 
 ### instalar YAML
 
@@ -23,4 +27,5 @@
 #### notes
 
     Para evitar warnings deprecate, utilizar el load de esta manera:
+
     -->> yaml.load(f, Loader=yaml.FullLoader)
