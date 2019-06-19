@@ -16,9 +16,11 @@
 
     deactivate
 
-### instalar YAML
+### instalar YAML, requests, beautifulsoup4
 
     pip install pyyaml
+    pip install requests
+    pip install beautifulsoup4
 
 ### ejecutar el main
 
